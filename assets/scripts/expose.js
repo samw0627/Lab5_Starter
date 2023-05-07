@@ -48,10 +48,9 @@ function init() {
 
   button.addEventListener("click", event =>{
     audio.play();
-   // if(airhorn.value == "party-horn"){
+    if(airhorn.value == "party-horn"){
       JSConfetti.addConfetti();
-
-    //}
+    }
   });
 
 }
